@@ -103,7 +103,7 @@
               页面设置
             </div>
             <div style="width: 50%; display: flex; justify-content: flex-end">
-              <el-button @click="updatePageSetting" icon="el-icon-circle-check" size="medium" type="primary">更新</el-button>
+              <el-button @click="updatePageSetting" icon="el-icon-circle-check" size="medium" type="primary">保存</el-button>
               <el-button @click="getPageSetting" size="medium" plain type="info"
                          class="base_refresh_btn base_margin_l_small"
                          icon="el-icon-refresh-right"/>

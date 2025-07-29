@@ -316,6 +316,7 @@ export default {
       let form = new FormData();
       form.append('file', param.file);
       form.append('isPublished', false);
+      form.append('fileType', '1');
       upload(form).then(res => {
         if (res.success) {
           Notification({

@@ -204,6 +204,7 @@ export default {
       let form = new FormData();
       form.append('file', file);
       form.append('isPublished', true);
+      form.append('fileType', '4');
       upload(form).then(res => {
         if (res.success) {
             this.$refs.content.$img2Url(pos, res.data)

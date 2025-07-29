@@ -109,6 +109,12 @@ export const constantRoutes = [
         meta: { title: '网站设置', icon: 'el-icon-setting' }
       },
       {
+        path: 'music/manage',
+        name: 'MusicManage',
+        component: () => import("@/views/system/MusicManage"),
+        meta: { title: '歌单管理', icon: 'el-icon-headset' }
+      },
+      {
         path: 'file/manage',
         name: 'FileManage',
         component: () => import('@/views/system/FileManage'),
